@@ -18,7 +18,7 @@
 /*  11. =testimonials
 /*  12. =contact
 /*  13. =footer
-/*
+/*	14. =whatsapp
 /* =================================================================== */
 
 /** 
@@ -578,6 +578,7 @@ hr {
 .section-head p {
 	font: 20px/36px "merriweather-light", serif;
 	width: 95%;
+	text-align:justify;
 }
 
 .section-head:hover h1 + hr {
@@ -1654,7 +1655,8 @@ ul#nav li.current a:after {
 /* custom upload button*/
 #portfolio a.uploadbtn {
     font: 12px/54px "raleway-heavy", sans-serif;
-    text-align: center;
+	text-align: center;
+	margin:0 auto;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-decoration: none;
@@ -2635,4 +2637,26 @@ footer .social-links li:first-child {
 	margin-left: 6px;
 	position: relative;
 	right: -5px;
+}
+/* 14=- whatsapp */
+.whatsapp{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.whatsapp:hover{
+	background-color:#fff;
+	color:#25d366;
+}
+.my-whatsapp{
+	margin-top:16px;
 }
